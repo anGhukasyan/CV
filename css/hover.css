@@ -1,0 +1,10 @@
+@media only screen and (min-width: 768px) {
+    .contacts-block__item a:hover {
+        color: #D2B79B;
+    }
+
+    a:hover {
+        color: #D2B79B;
+        transition: all .3s ease-in-out;
+    }
+}

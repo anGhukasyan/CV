@@ -1,0 +1,28 @@
+@media (min-width: 992px){
+    .wrapper {
+        max-width: 1240px;
+    }
+
+    .main-content {
+        margin: auto;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+}
+@media (max-width: 991px){
+    .box__second {
+        max-height: unset;
+        height: auto;
+    }
+}
+
+@media (max-width: 576px){
+    .sidebar-bottom,
+    .right-box-bottom,
+    .right-box-top{
+        padding: 2rem 1.5rem;
+    }
+}
